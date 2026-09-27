@@ -8,4 +8,12 @@ if (temperature > 80) {
 } else {
     console.log("Watering off");
     
+};
+
+if (timeOfDay == "evening" || timeOfDay == "night") {
+    console.log("Lights on");
+    
+} else {
+    console.log("Lights off");
+    
 }
